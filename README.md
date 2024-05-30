@@ -17,13 +17,6 @@ Write-Up Bot is a Python script that automatically checks various RSS feeds rela
 - `sqlite3` library
 - `logging` library
 
-You can install the required libraries using pip:
-
-```bash
-pip install -r requirements.txt
-```
-
-
 ## ⚙️ Configuration
 Create a config.json file in the data directory with the following structure:
 
@@ -51,12 +44,13 @@ Create a config.json file in the data directory with the following structure:
 ```bash
 git clone https://github.com/M-thefl/WriteUp.git
 cd WriteUp
+pip install -r requirements.txt
 ```
 2. Configure the bot:
 `Update config.json file with your Discord website address, Telegram BotToken, ChatID and RSS feed URLs.`
 
 3. Run the script:
-`python write_up_bot.py`
+`python main.py`
    
 ## 📄 License
 
