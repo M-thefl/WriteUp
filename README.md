@@ -46,8 +46,8 @@ git clone https://github.com/M-thefl/WriteUp.git
 cd WriteUp
 pip install -r requirements.txt
 ```
-2. Configure the bot:
-`Update config.json file with your Discord website address, Telegram BotToken, ChatID and RSS feed URLs.`
+ 2. Configure the bot:<br>
+ `Update config.json file with your Discord website address, Telegram BotToken, ChatID and RSS feed URLs.`
 
 3. Run the script:
 `python main.py`
